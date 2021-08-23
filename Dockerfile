@@ -1,2 +1,2 @@
 FROM centos
-RUN dnf install podman buildah -y
+RUN echo "Hello World"

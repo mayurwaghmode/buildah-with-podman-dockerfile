@@ -1,2 +1,3 @@
-FROM centos
-RUN echo "Hello World"
+FROM alpine
+
+ENTRYPOINT echo hello medium

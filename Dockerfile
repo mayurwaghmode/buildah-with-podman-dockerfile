@@ -1,3 +1,3 @@
-FROM alpine
+FROM centos
 
 ENTRYPOINT echo hello medium

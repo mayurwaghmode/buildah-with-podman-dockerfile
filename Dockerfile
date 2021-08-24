@@ -1,3 +1,3 @@
 FROM centos
 
-ENTRYPOINT dnf install podman buildah -y
+RUN dnf install podman buildah -y

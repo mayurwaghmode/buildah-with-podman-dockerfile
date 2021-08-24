@@ -1,3 +1,3 @@
 FROM centos
 
-ENTRYPOINT echo hello medium
+RUN dnf install podman buildah -y

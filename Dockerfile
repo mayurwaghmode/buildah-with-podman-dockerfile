@@ -1,2 +1,2 @@
-FROM centos:8
+FROM quay.io/buildah/stable
 RUN dnf install podman buildah -y

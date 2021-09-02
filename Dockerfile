@@ -1,2 +1,2 @@
 FROM quay.io/buildah/stable
-RUN dnf install podman buildah -y
+RUN dnf install podman -y
